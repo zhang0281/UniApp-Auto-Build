@@ -1,0 +1,8 @@
+/temp/
+/projects/
+/node_modules/
+.idea
+.gradle
+**.apk
+**/*.jks
+test.bat

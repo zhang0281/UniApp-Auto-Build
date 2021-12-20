@@ -1,0 +1,18 @@
+{
+  "name": "uniapp-auto-build",
+  "version": "1.0.0",
+  "description": "uni-app自动打包",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "compressing": "^1.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "run": "node main.js"
+  },
+  "author": "zhang",
+  "license": ""
+}
