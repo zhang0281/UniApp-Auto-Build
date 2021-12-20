@@ -46,5 +46,4 @@
 3. 需要在环境变量中添加``` ANDROID_SDK_ROOT ``` 变量并安装android sdk。
 4. 需要检查项目中添加的模块，如果没有在main.js->configureAndroidProject 中的switch中声明或者处理的话，则需要按照[文档](https://nativesupport.dcloud.net.cn/AppDocs/usemodule/androidModuleConfig/geolocation) 补充相应操作。
 5. 如果遇到生成离线打包资源失败的情况可以尝试删除uniapp-auto-build内的node_modules后重新运行yarn初始化项目后再次运行。
-6. 如果需要添加UniPush模块请参照./projects/rs_carbutler_uniapp/unipush.json进行配置。
-7. 目前已配置模块：定位-高德地图，UniPush，地图-高德地图，支付，语音识别-百度
+6. 目前已配置模块：定位-高德地图，UniPush，地图-高德地图，支付，语音识别-百度
